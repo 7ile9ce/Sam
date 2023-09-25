@@ -1,0 +1,10 @@
+version: '2'
+service: 
+  Sam:
+    image: '7ile9ce/78:latest'
+    enviroment:
+    - "PORT:3000"
+    ports:
+    - "80:3000"
+    volumes:
+    - ./:/app
