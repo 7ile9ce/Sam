@@ -1,6 +1,6 @@
 version: '2'
 services: 
-  78:
+  "78":
     image: '7ile9ce/78:latest'
     environment:
      - "PORT:3000"
